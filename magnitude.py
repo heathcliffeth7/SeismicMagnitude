@@ -1,11 +1,9 @@
-# Number of members in each role (original, cumulative data)
-# E.g., Mag 1.0 count includes everyone with Mag 1.0 and above (2, 3, .. 9).
 DISTRIBUTION_ORIGINAL = [
-    ("Verified", 46349),
-    ("Magnitude 1.0", 996),
-    ("Magnitude 2.0", 32),
-    ("Magnitude 3.0", 1),
-    ("Magnitude 4.0", 0),
+    ("Verified", 86192),
+    ("Magnitude 1.0", 3704),
+    ("Magnitude 2.0", 1002),
+    ("Magnitude 3.0", 363),
+    ("Magnitude 4.0", 66),
     ("Magnitude 5.0", 0),
     ("Magnitude 6.0", 0),
     ("Magnitude 7.0", 0),
@@ -14,13 +12,13 @@ DISTRIBUTION_ORIGINAL = [
 ]
 
 # Assembly of leaders and mods
-N_ASSEMBLY = 7
+N_ASSEMBLY = 20
 
 # Number of weeks remaining to reach the target distribution
 N_WEEKS_TOTAL = 24
 
 # Number of weeks passed since March 17th, 2025
-N_WEEKS_PASSED = 0
+N_WEEKS_PASSED =4
 
 
 def calculate_exclusive_counts(distribution_original):
